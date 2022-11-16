@@ -58,6 +58,24 @@ const Footer = () => {
                 <li className={styles.socialRow__icon}>
                   <a
                     className={`${styles.socialRow__link} ${styles.flexy}`}
+                    href="https://github.com/serg-itsh"
+                    target="blank"
+                   
+                  >
+                    <svg
+                      className={`${styles.socialRow__linkSvg} ${styles.socialRow__linkWhite}`}
+                      width={24} 
+                      height={24}
+                    >
+                      
+                      <use href={`${SpriteGit}#icon-github-1`}></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li className={styles.socialRow__icon}>
+                  <a
+                    className={`${styles.socialRow__link} ${styles.flexy}`}
                     
                     href={social.instagram}
                     target="blank"
@@ -75,23 +93,7 @@ const Footer = () => {
                   </a>
                 </li>
                
-                <li className={styles.socialRow__icon}>
-                  <a
-                    className={`${styles.socialRow__link} ${styles.flexy}`}
-                    href="https://github.com/serg-itsh"
-                    target="blank"
-                   
-                  >
-                    <svg
-                      className={`${styles.socialRow__linkSvg} ${styles.socialRow__linkWhite}`}
-                      width={24} 
-                      height={24}
-                    >
-                      
-                      <use href={`${SpriteGit}#icon-github-1`}></use>
-                    </svg>
-                  </a>
-                </li>
+             
                
               </ul>
             </div>
