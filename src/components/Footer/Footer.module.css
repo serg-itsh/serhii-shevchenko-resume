@@ -1,0 +1,215 @@
+.container {   
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+
+.footer {
+  /* grid-area: f; */
+text-align: center;
+  color: azure;
+
+
+  /* background-color: rgb(4, 0, 52); */
+  /* padding: 60px 0; */
+  background: rgb(12, 11, 42);
+}
+
+
+
+
+
+/* link {
+  text-decoration: none;
+  color: currentColor;
+} */
+
+/* .footer {
+  padding: 60px 0;
+  background: rgb(12, 11, 42);
+} */
+/* footer */
+
+.footerSocial {
+    margin-top: 30px;
+    margin-bottom: 45px;
+
+  /* @media (min-width: 768px) {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  @media (min-width: 1200px) {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  } */
+}
+
+/* .page-footer__vraper {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+} */
+
+.pageFooter {
+  padding: 60px 0;
+  background-color: #2f303a;
+
+  /* @media (min-width: 1200px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  } */
+ 
+}
+
+.pageFooter__box {
+    justify-content: flex-start;
+    align-items: baseline;
+
+    /* @media (max-width: 1199px) {
+      text-align: center;
+    }
+
+    @media (min-width: 480px) {
+      display: block;
+    }
+
+    @media (min-width: 1200px) {
+      display: flex;
+    } */
+  }
+
+  /* .page-footer__logo-address {
+    @media (min-width: 1200px) {
+      margin-right: 70px;
+    }
+  } */
+/* logo */
+
+.logo {
+    display: inline-block;
+    margin-top: 20px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration: none;
+
+  text-shadow: 0px 0px 18px #382ca7;
+
+  -webkit-text-stroke: 0.2px #a9d9ff;
+}
+
+/* Address */
+
+.pageFooter__link {
+  margin-top: 20px;
+}
+
+/* sergeishevchenko111@gmail.com */
+
+.pageFooter__links {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footerSocial__slogan {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  /* text-transform: uppercase; */
+  color: white;
+}
+
+/* .page-footer__input {
+       display: flex;   
+       align-items: center;
+     
+       @media screen and (max-width: 1199px) {
+         flex-direction: column;
+       }
+     } */
+
+/* social */
+
+.flexy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.socialRow__icon:not(:last-child) {
+  margin-right: 10px;
+}
+
+.socialRow__link {
+  display: flex;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+
+  transition: 1s;
+
+  /* transition: fill rgba(0.4, 0, 0.2, 1); */
+ 
+
+  /* --transition: rgba(0.4, 0, 0.2, 1);
+           --transform: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+}
+
+
+.socialRow__link:hover,
+.socialRow__link:focus {
+  /* transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1); */
+  background-color: #2196f3;
+  box-shadow: 0px 0px 20px 17px #241e5a70;
+
+  transform: scale(1.1);
+
+  transition: 0.25s;
+}
+
+
+
+/* .social-row__link:hover{
+        transform: scale(1.1);
+        transition: 0.25s;
+      }
+      */
+
+
+
+.socialRow__linkWhite {
+  fill: #ffffff;
+/* 
+   &:hover,
+   &:focus{
+     fill: rgb(255, 255, 255);
+     transition: transform 5000ms linear;
+   } */
+}
+
+
+.copyright {
+  display: flex;
+ 
+  margin-bottom: 30px;
+  color: #ffffff80;
+}

@@ -1,0 +1,22 @@
+.home {
+    /* grid-area: m; */
+    padding: 0 20px;
+
+    height: 100vh;
+
+    color: azure;
+    
+    background-color: rgb(50, 31, 255);
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 0;
+      }
+.home img {
+    
+    border-radius: 4px;
+    box-shadow: 15px 19px 8px 4px rgb(0 0 0 / 70%);
+    
+}

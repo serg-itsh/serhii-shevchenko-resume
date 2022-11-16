@@ -1,0 +1,16 @@
+.portfolio {
+  
+
+    height: 100vh;
+
+    color: azure;
+    
+    background-color: rgb(50, 31, 255);
+    }
+
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px ;
+      }
