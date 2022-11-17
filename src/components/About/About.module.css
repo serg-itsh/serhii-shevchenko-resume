@@ -1,14 +1,36 @@
 .about {
-    
-  height: 100vh;
-
   color: azure;
 
   background-color: rgb(50, 31, 255);
 }
 
 .container {
+
   width: 100%;
   margin: 0 auto;
-  padding: 20px ;
+  padding: 20px 20px 40px 20px ;
+
+  /* padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+
+
+/* .about_wrapper{
+  display: inline-block;
+  
+} */
+
+h2{
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+.text {
+  /* display: inline-block; */
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
