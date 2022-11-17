@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/serhii-shevchenko-resume/static/css/main.6328c83b.css",
+    "main.css": "/serhii-shevchenko-resume/static/css/main.d4e93893.css",
     "main.js": "/serhii-shevchenko-resume/static/js/main.ca9155ad.js",
     "static/media/logo-04-07.svg": "/serhii-shevchenko-resume/static/media/logo-04-07.9785ae0c2b8ef001dd6beea9df14900f.svg",
     "static/media/team-03-pr-film_03.jpg": "/serhii-shevchenko-resume/static/media/team-03-pr-film_03.d278874e0904f6b2e107.jpg",
@@ -10,11 +10,11 @@
     "static/media/symbol-defs.svg": "/serhii-shevchenko-resume/static/media/symbol-defs.4ca759390e8e5f97540dc6e5612e244c.svg",
     "static/media/github.svg": "/serhii-shevchenko-resume/static/media/github.edd1abda561727c1b0b20a72e05869e5.svg",
     "index.html": "/serhii-shevchenko-resume/index.html",
-    "main.6328c83b.css.map": "/serhii-shevchenko-resume/static/css/main.6328c83b.css.map",
+    "main.d4e93893.css.map": "/serhii-shevchenko-resume/static/css/main.d4e93893.css.map",
     "main.ca9155ad.js.map": "/serhii-shevchenko-resume/static/js/main.ca9155ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.6328c83b.css",
+    "static/css/main.d4e93893.css",
     "static/js/main.ca9155ad.js"
   ]
 }
