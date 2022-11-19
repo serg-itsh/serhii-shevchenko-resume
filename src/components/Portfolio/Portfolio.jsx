@@ -1,5 +1,5 @@
 import styles from './Portfolio.module.css';
-import Project_1 from '../../images/projects/markup-hw-08_1.jpg';
+import Project_1 from '../../images/projects/markup-hw-08_1.1.jpg';
 import Project_2 from '../../images/projects/icecream-team-project_02.1.jpg';
 import Project_3 from '../../images/projects/team-03-pr-film_03.jpg';
 import Project_4 from '../../images/projects/pro-test_04.jpg';
@@ -41,9 +41,8 @@ const Portfolio = () => {
 
           <li className={styles.pictures}>
             <p className={styles.text}>
-              WEB-STUDIO
-              <br />
-              -Own project
+              WEB-STUDIO Own project
+              
             </p>
             <img
               className={styles.picturesImg}
@@ -52,8 +51,8 @@ const Portfolio = () => {
             />
           </li>
         </ul>
-        <div>
-          <h2>Use of technologies on projects.</h2>
+        <div className={styles.tehnology}> 
+          <h2 className={styles.tehnology_text}>Use of technologies on projects.</h2>
           <div className={styles.icon}>
 
           <div className={styles.iconScale}>

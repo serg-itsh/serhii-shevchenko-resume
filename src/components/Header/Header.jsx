@@ -13,7 +13,7 @@ const Header = () => {
             </svg>
           </NavLink>
           {/* nav */}
-          <div>
+          <div className={styles.nav_wrapper}>
             <NavLink
               to="/"
               exact={true}
